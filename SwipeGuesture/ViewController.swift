@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func LeftGesture(_ sender: UISwipeGestureRecognizer)
+    {
+        self.view.backgroundColor = UIColor.blue
+    }
 
+    
+    @IBAction func RightGesture(_ sender: AnyObject) {
+        self.view.backgroundColor = UIColor.yellow
+    }
 }
 
